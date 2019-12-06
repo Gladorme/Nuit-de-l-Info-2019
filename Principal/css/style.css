@@ -1,32 +1,114 @@
 .header {
     height: 40vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/etudiants.png");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/etudiants.png");
     background-size: cover;
     background-position: center center;
     color: white;
 }
+
 .categories {
     margin: 50px 0 50px 0;
 }
+
 .utiles {
     background-color: #212529;
     color: white;
     padding: 25px 0 25px 0;
 }
+
 .videos {
     padding: 25px 0 25px 0;
 }
+
 .video {
     height: 315px;
     width: 560px;
 }
+
 .footer {
     background-color: #212529;
     color: white;
     padding: 30px 0 10px 0;
 }
 
+
 /* Utility */
+
 .text-shadow-black {
     text-shadow: 0 0 10px #000;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.contexte div {
+    padding: 2rem;
+}
+
+.contexte div p {
+    text-align: justify;
+}
+
+.constat div {
+    padding: 2rem;
+}
+
+.constat div p {
+    text-align: justify;
+}
+
+.constat container row div {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.contenu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contenu #output,
+.contenu .container {
+    text-align: center;
+}
+
+.gif-ubisoft {
+    width: 40%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.retour-accueil:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.retour-accueil {
+    color: white;
 }
